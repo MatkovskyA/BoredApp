@@ -1,0 +1,44 @@
+@import 'reset';
+@import 'mixins';
+
+$bgColor: #f9d3d3;
+$textColor: brown;
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    background: linear-gradient(rgb(129, 129, 241), pink);
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 16px;
+}
+
+.header {
+    @include styleElem;
+    margin-top: 30px;
+    color: black;
+}
+
+button {
+    margin-bottom: 50px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+
+    &:hover {
+        background: rgb(227, 254, 186);
+    }
+}
+
+.action {
+    @include styleElem;
+}

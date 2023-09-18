@@ -1,0 +1,9 @@
+@mixin styleElem {
+    font-weight: bold;
+    max-width: 500px;
+    padding: 20px;
+    background-color: $bgColor;
+    border-radius: 10px;
+    margin: 0 auto 50px;
+    color: $textColor;
+}
