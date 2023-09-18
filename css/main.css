@@ -31,6 +31,9 @@ body {
   border-radius: 10px;
   margin: 0 auto 50px;
   color: brown;
+}
+
+.header {
   margin-top: 30px;
   color: black;
 }
@@ -42,8 +45,9 @@ button {
   font-size: 20px;
   cursor: pointer;
 }
+
 button:hover {
-  background: rgb(227, 254, 186);
+  background: rgb(229, 255, 190);
 }
 
 .action {
@@ -54,4 +58,6 @@ button:hover {
   border-radius: 10px;
   margin: 0 auto 50px;
   color: brown;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */

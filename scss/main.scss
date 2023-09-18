@@ -21,8 +21,11 @@ body {
     padding: 0 16px;
 }
 
-.header {
+.header, .action  {
     @include styleElem;
+}
+
+.header {
     margin-top: 30px;
     color: black;
 }
@@ -35,7 +38,7 @@ button {
     cursor: pointer;
 
     &:hover {
-        background: rgb(227, 254, 186);
+        background: rgb(229, 255, 190);
     }
 }
 
